@@ -67,17 +67,24 @@
                         Foreground="White"
                         BorderBrush="MidnightBlue"/>
 
-                <Image Source="C:\Users\ckimk\source\repos\TravelOrderSystem\TravelOrderSystem\Resources\logout.png" 
-                       Height="50"
-                       Width="50"
-                       Margin="50"/>
             </StackPanel>
 
         </Border>
 
+        <Button
+        Background="MidnightBlue" Click="Button_Click" Margin="120,907,1613,32">
+            <StackPanel
+        >
+                <Image Source="C:\Users\ckimk\source\repos\TravelOrderSystem\TravelOrderSystem\Resources\logout.png" 
+               Height="50"
+               Width="50"
+               />
+            </StackPanel>
+        </Button>
+
         <StackPanel 
             Margin="0,0,1479,758">
-            
+
             <Image Source="C:\Users\ckimk\source\repos\TravelOrderSystem\TravelOrderSystem\Resources\user_white.png" 
                 Height="150"
                 Width="150"
