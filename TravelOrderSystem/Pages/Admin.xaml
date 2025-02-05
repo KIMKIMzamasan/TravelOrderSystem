@@ -1,0 +1,103 @@
+﻿<Window x:Class="Admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TravelOrderSystem"
+        mc:Ignorable="d"
+        Title="Admin" Height="1000" Width="1800" 
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        Background="Transparent">
+    <Grid>
+
+        <Border 
+            Background="MidnightBlue"
+            CornerRadius="20">
+            <StackPanel Margin="0,254,1476,23"
+                        >
+                <Button Height="60"
+                        Background="MidnightBlue"
+                        Content="User Management"
+                        FontFamily="Century Gothic"
+                        FontWeight="Bold"
+                        FontSize="16"
+                        Foreground="White"
+                        BorderBrush="MidnightBlue"
+                        />
+                <Button Height="60"
+                        Background="MidnightBlue"
+                        Content="Employee Management"
+                        FontFamily="Century Gothic"
+                        FontWeight="Bold"
+                        FontSize="16"
+                        Foreground="White"
+                        BorderBrush="MidnightBlue"/>
+                <Button Height="60"
+                        Background="MidnightBlue"
+                        Content="Inventory Management"
+                        FontFamily="Century Gothic"
+                        FontWeight="Bold"
+                        FontSize="16"
+                        Foreground="White"
+                        BorderBrush="MidnightBlue"/>
+                <Button Height="60"
+                        Background="MidnightBlue"
+                        Content="Supplier Management"
+                        FontFamily="Century Gothic"
+                        FontWeight="Bold"
+                        FontSize="16"
+                        Foreground="White"
+                        BorderBrush="MidnightBlue"/>
+                <Button Height="60"
+                        Background="MidnightBlue"
+                        Content="Customer Management"
+                        FontFamily="Century Gothic"
+                        FontWeight="Bold"
+                        FontSize="16"
+                        Foreground="White"
+                        BorderBrush="MidnightBlue"/>
+                <Button Height="60"
+                        Background="MidnightBlue"
+                        Content="Reporting and Analytics"
+                        FontFamily="Century Gothic"
+                        FontWeight="Bold"
+                        FontSize="16"
+                        Foreground="White"
+                        BorderBrush="MidnightBlue"/>
+
+                <Image Source="C:\Users\ckimk\source\repos\TravelOrderSystem\TravelOrderSystem\Resources\logout.png" 
+                       Height="50"
+                       Width="50"
+                       Margin="50"/>
+            </StackPanel>
+
+        </Border>
+
+        <StackPanel 
+            Margin="0,0,1479,758">
+            
+            <Image Source="C:\Users\ckimk\source\repos\TravelOrderSystem\TravelOrderSystem\Resources\user_white.png" 
+                Height="150"
+                Width="150"
+                Margin="15">
+            </Image>
+            <Label
+                FontFamily="Century Gothic"
+                FontSize="30"
+                FontWeight="Bold"
+                Foreground="White"
+                Content="Admin"
+                HorizontalAlignment="Center"></Label>
+        </StackPanel>
+
+        <Border 
+            Margin="326,0,0,0"
+            Background="White"
+            CornerRadius="0, 20, 20, 0"
+            >
+        </Border>
+
+    </Grid>
+</Window>

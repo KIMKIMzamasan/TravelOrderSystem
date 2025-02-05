@@ -16,7 +16,14 @@
         <Border
             Background="MidnightBlue"
             CornerRadius="20"
-            ></Border>
+            >
+            <Label Content="Travel Order System" 
+                   Margin="30,191,303,191"
+                   FontSize="46"
+                   FontFamily="Century Gothic"
+                   FontWeight="Bold"
+                   Foreground="White"/>
+        </Border>
 
         <Border Margin="520,0,0,0"
             Background="White"
@@ -28,7 +35,7 @@
                     FontFamily="Century Gothic"
                     FontSize="24"
                     FontWeight="Bold"
-                    Foreground="White"></Button>
+                    Foreground="White" Click="Button_Click"></Button>
 
         </Border>
         <TextBox TextWrapping="Wrap" 
